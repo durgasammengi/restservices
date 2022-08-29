@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class EmpService {
     @GetMapping("/message")
     public String getEmp(){
-        return "employee Prasd";
+        return "emp serv1 employee Prasd";
     }
 }
